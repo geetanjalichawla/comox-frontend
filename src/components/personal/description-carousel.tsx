@@ -1,4 +1,5 @@
 'use client';
+import Image from 'next/image';
 import React from 'react';
 import Slider from 'react-slick';
 
@@ -42,7 +43,7 @@ const GearProducts = () => {
           {products.map((product, index) => (
             <div key={index} className="flex justify-center items-center">
               <div className="bg-white p-6 rounded-lg shadow-md w-80">
-                <img src={product.image} alt={product.name} className="w-full h-48 object-cover rounded-md mb-4" />
+                <Image src={product.image} alt={product.name} className="w-full h-48 object-cover rounded-md mb-4"  height={192} width={192}/>
                 <div className="card-content">
                   <h4 className="text-lg font-bold text-gray-700">GEAR</h4>
                   <h3 className="text-xl font-semibold text-gray-800">{product.name}</h3>

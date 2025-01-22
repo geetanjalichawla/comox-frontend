@@ -3,7 +3,6 @@ import React, { useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRightIcon } from "lucide-react";
-import { BlurEffectCard } from "@/components/ui/blur-effer";
 
 interface CategoryCardProps {
     title: string;

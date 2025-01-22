@@ -51,7 +51,7 @@ export default function FAQSection() {
 
         <AccordionItem value="item-5" className="border rounded-lg px-4 group-hover:backdrop-blur-sm hover:!blur-none hover:relative hover:z-10 transition-all duration-500 hover:scale-105">
           <AccordionTrigger className="text-left [&[data-state=open]>svg]:rotate-90">
-            What's your support line to call for support?
+            What&apos;s your support line to call for support?
           </AccordionTrigger>
           <AccordionContent>
             Our support team is available at 1-800-123-4567, Monday through Friday, 9 AM to 6 PM EST.

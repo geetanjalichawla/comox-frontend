@@ -5,7 +5,9 @@ import { ProductCardProps } from "@/interfaces/products";
 
 export default async function Products({searchParams}: Readonly<{searchParams: {query: string}}>) {
     let products: ProductCardProps[] = [];
-    const query = searchParams?.query || "";
+
+    const {query} =  await searchParams;
+
 
   
     try {

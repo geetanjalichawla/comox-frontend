@@ -1,5 +1,6 @@
 
-import { BlurEffectCard, BlurEffectContainer } from "@/components/ui/blur-effer";
+import { BlurEffectCard, BlurEffectContainer } from "@/components/ui/blur-effect";
+import Image from "next/image";
 import React from "react";
 
 const articles = [
@@ -41,10 +42,12 @@ const ArticlesSection: React.FC = () => {
               key={article.id}
               className="bg-gray-50 rounded-lg shadow-md overflow-hidden"
             >
-              <img
+              <Image
                 src={article.image}
                 alt={article.title}
                 className="w-full h-56 object-cover"
+                width={224}
+                height={224}
               />
               <div className="">
                 <h3 className="text-lg font-bold text-gray-800 px-6">{article.title}</h3>

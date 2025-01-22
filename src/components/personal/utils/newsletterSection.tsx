@@ -3,7 +3,7 @@ import React from "react";
 
 const NewsletterSection: React.FC = () => {
   return (
-    <section className="bg-gray-50 py-12 px-6 rounded-lg shadow-md md:py-24">
+    <section className="bg-gray-50 py-12 px-6 rounded-lg shadow-md md:py-24 w-full">
       <div className="max-w-2xl mx-auto text-center">
         {/* Title */}
         <h2 className="text-4xl md:text-5xl font-normal leading-loose text-neutral-900 font-sans mb-6">

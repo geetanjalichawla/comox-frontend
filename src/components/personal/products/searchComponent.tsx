@@ -37,6 +37,7 @@ export function ProductNavigation() {
       }
     }, 500);
     return () => clearTimeout(timeout);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [search]);
   const setActiveCategory = (category: string) => {
     const newQuery = new URLSearchParams({

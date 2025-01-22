@@ -3,14 +3,6 @@ import { Geist, Geist_Mono, Public_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/personal/navigation";
 import Banner from "@/components/personal/banner";
-import ProductCard from "@/components/personal/products/product-card";
-import CategoryCard from "@/components/personal/products/category-card";
-import AboutUsSection from "@/components/personal/utils/aboutUsSection";
-import { BlurEffectCard, BlurEffectContainer } from "@/components/ui/blur-effer";
-import DescriptionCarousel from "@/components/personal/description-carousel";
-import NewsletterSection from "@/components/personal/utils/newsletterSection";
-import ArticlesSection from "@/components/personal/utils/articles";
-import FAQSection from "@/components/personal/utils/faqSection";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
