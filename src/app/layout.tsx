@@ -49,70 +49,7 @@ export default function RootLayout({
       >
         <Navbar />
         <Banner />
-        {/* <BlurEffectContainer className="grid grid-cols-2 gap-10 max-w-screen-base mx-auto px-16">
-          <BlurEffectCard>
-          <CategoryCard
-              title="Audio"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit elementum nisl facilisis."
-              imageUrl="/assets/categories/audio.png"
-              linkText="Explore category"
-              linkHref="/categories/audio"
-            />
-          </BlurEffectCard>
-
-          <BlurEffectCard>
-          <CategoryCard
-              title="Audio"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit elementum nisl facilisis."
-              imageUrl="/assets/categories/audio.png"
-              linkText="Explore category"
-              linkHref="/categories/audio"
-            />
-          </BlurEffectCard>
-          <BlurEffectCard>
-          <CategoryCard
-              title="Audio"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit elementum nisl facilisis."
-              imageUrl="/assets/categories/audio.png"
-              linkText="Explore category"
-              linkHref="/categories/audio"
-            />
-          </BlurEffectCard>
-          <BlurEffectCard>
-          <CategoryCard
-              title="Audio"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit elementum nisl facilisis."
-              imageUrl="/assets/categories/audio.png"
-              linkText="Explore category"
-              linkHref="/categories/audio"
-            />
-          </BlurEffectCard>
-          <BlurEffectCard>
-          <CategoryCard
-              title="Audio"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit elementum nisl facilisis."
-              imageUrl="/assets/categories/audio.png"
-              linkText="Explore category"
-              linkHref="/categories/audio"
-            />
-          </BlurEffectCard>
-        </BlurEffectContainer>
-        <AboutUsSection />
-        <div className="max-w-screen-base mx-auto">
-          <DescriptionCarousel />
-        </div>
-
-        <div className="max-w-screen-base mx-auto">
-          <NewsletterSection/>
-        </div>
-
-        <div className="max-w-screen-base mx-auto">
-          <ArticlesSection/>
-        </div>
-
-        <div className="max-w-screen-base mx-auto">
-          <FAQSection/>
-        </div> */}
+ 
         {children}
       </body>
     </html>

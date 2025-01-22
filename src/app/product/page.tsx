@@ -1,4 +1,3 @@
-import ProductCard from "@/components/personal/products/product-card";
 import ProductGrid from "@/components/personal/products/product-grid";
 import { ProductCardProps } from "@/interfaces/products";
 
