@@ -14,12 +14,15 @@ const categories = [
   { name: "Audio", href: "#" },
 ]
 
-export function ProductNavigation() {
-  const [search, setSearch] = React.useState("");
-  const router = useRouter();
-  const searchParams = useSearchParams();
+export const dynamic = "force-dynamic";
 
+export function ProductNavigation() {
+  const searchParams = useSearchParams();
   const query = Object.fromEntries(searchParams);
+
+  const [search, setSearch] = React.useState(query.search || "");
+  const router = useRouter();
+
   const activeCategory = query.category || "";
 
   React.useEffect(() => {
